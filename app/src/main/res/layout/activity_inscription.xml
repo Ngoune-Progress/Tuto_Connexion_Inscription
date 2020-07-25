@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_auth"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activityInscription"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <!-- logo-->
+        <ImageView android:src="@drawable/login"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Nom-->
+            <EditText android:id="@+id/inscription_nom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/et_bg"
+                android:ems="10"
+                android:hint="@string/nom"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColorHint="#FF8A99AF"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp"
+                android:inputType="text" />
+
+        <!-- Email-->
+            <EditText android:id="@+id/inscription_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/et_bg"
+                android:ems="10"
+                android:hint="@string/adresse_email"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColorHint="#FF8A99AF"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp"
+                android:inputType="textEmailAddress"/>
+
+        <!-- mot de passe -->
+            <EditText android:id="@+id/inscription_mdp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/et_bg"
+                android:ems="10"
+                android:hint="@string/mot_de_passe"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColorHint="#FF8A99AF"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp"
+                android:inputType="textPassword"/>
+
+        <!-- button inscription-->
+        <Button
+            android:id="@+id/btn_inscription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:text="@string/inscrivez_vous"/>
+
+        <TextView android:id="@+id/lien_connexion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/white"
+            android:text="@string/vous_avez_d_j_un_compte_connectez_vous"
+            android:gravity="center"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

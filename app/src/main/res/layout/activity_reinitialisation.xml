@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_auth"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activityReinitialisation"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <!-- logo-->
+        <ImageView android:src="@drawable/login"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:id="@+id/tvMdpinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/info_reinitialisation"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+        <!-- Email-->
+        <EditText android:id="@+id/mdpOublie_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:hint="@string/adresse_email"
+            android:maxLines="1"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColorHint="#FF8A99AF"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress"/>
+
+        <!-- button inscription-->
+        <Button
+            android:id="@+id/btn_reinitialiser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:text="@string/reinitialis"/>
+
+        <TextView android:id="@+id/lien_connexion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/white"
+            android:text="@string/retourn_la_page_d_inscription"
+            android:gravity="center"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

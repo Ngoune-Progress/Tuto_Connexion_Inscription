@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "254702917858",
+    "firebase_url": "https://loginregistration-144d3.firebaseio.com",
+    "project_id": "loginregistration-144d3",
+    "storage_bucket": "loginregistration-144d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254702917858:android:0e2446f3a03fb35bf766bb",
+        "android_client_info": {
+          "package_name": "com.example.tuto_connexion_inscription"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254702917858-0pjjnhnd6s6n1iaa85n4ccb4v42vp940.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLilS_XoNgWYU8_eohiBh3ye0oP0hkCO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254702917858-0pjjnhnd6s6n1iaa85n4ccb4v42vp940.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

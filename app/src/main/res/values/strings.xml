@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tuto_Connexion_Inscription</string>
+    <string name="inscrivez_vous">Inscrivez vous</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="adresse_email">Adresse Email</string>
+    <string name="nom">Nom</string>
+    <string name="vous_avez_d_j_un_compte_connectez_vous">vous avez déjà un compte? Connectez-vous</string>
+    <string name="connectez_vous">Connectez vous</string>
+    <string name="info_reinitialisation">vous allez recevoir un email avec des instructions pour reinitialisé votre mot de passe.</string>
+    <string name="reinitialis">Reinitialisé</string>
+    <string name="retourn_la_page_d_inscription">retourné à la page d\'inscription</string>
+    <string name="deconnexion">Deconnexion</string>
+</resources>
